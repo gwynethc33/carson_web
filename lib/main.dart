@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Our Story',
+      title: 'Carson&Gwen Forever',
       theme: ThemeData(
         useMaterial3: true,
       ),

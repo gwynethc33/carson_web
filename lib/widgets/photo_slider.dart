@@ -15,10 +15,10 @@ class _PhotoSliderSectionState extends State<PhotoSliderSection> {
   Timer? _timer;
 
   final List<String> photos = const [
-    'assets/images/photo1.jpg',
-    'assets/images/photo2.jpg',
-    'assets/images/photo3.jpg',
-    'assets/images/photo4.jpg',
+    'assets/images/c1.png',
+    'assets/images/c2.png',
+    'assets/images/c3.png',
+    'assets/images/c4.png',
   ];
   
 

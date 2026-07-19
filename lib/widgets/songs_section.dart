@@ -25,19 +25,19 @@ class SongsSection extends StatelessWidget {
 
     final songs = [
       const SongInfo(
-        name: "Song One",
-        artist: "Artist One",
-        spotifyLink: "https://open.spotify.com/track/YOUR_FIRST_LINK",
+        name: "RATHER LIE",
+        artist: "Playboi Carti & The Weeknd",
+        spotifyLink: "https://open.spotify.com/track/68qeaZhtMZ6abrJCYt6nQn",
       ),
       const SongInfo(
-        name: "Song Two",
-        artist: "Artist Two",
-        spotifyLink: "https://open.spotify.com/track/YOUR_SECOND_LINK",
+        name: "GO(feat. Juice WRLD)",
+        artist: "The Kid LAROI & Juice WRLD",
+        spotifyLink: "https://open.spotify.com/search/go%20juice%20world%20the%20kid%20laroi",
       ),
       const SongInfo(
-        name: "Song Three",
-        artist: "Artist Three",
-        spotifyLink: "https://open.spotify.com/track/YOUR_THIRD_LINK",
+        name: "The One That Got Away",
+        artist: "Katy Perry",
+        spotifyLink: "https://open.spotify.com/search/the%20one%20that%20got%20away",
       ),
     ];
 
@@ -59,7 +59,7 @@ class SongsSection extends StatelessWidget {
               fontWeight: FontWeight.w300,
               fontStyle: FontStyle.italic,
               letterSpacing: 3,
-              fontFamily: "DancingScript",
+              fontFamily: 'Runethia',
             ),
           ),
 
@@ -157,6 +157,7 @@ class _VinylSongCardState extends State<VinylSongCard> {
                   color: Colors.white,
                   fontSize: 18 * r,
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'Runethia',
                 ),
               ),
 
@@ -167,6 +168,7 @@ class _VinylSongCardState extends State<VinylSongCard> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white70,
+                  fontFamily: 'Runethia',
                   fontSize: 14 * r,
                 ),
               ),

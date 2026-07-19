@@ -71,6 +71,7 @@ Widget build(BuildContext context) {
               style: TextStyle(
                 fontSize: 32 * r,
                 fontWeight: FontWeight.bold,
+                fontFamily: 'Runethia',
               ),
             ),
           ),

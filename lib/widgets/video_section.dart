@@ -54,9 +54,10 @@ class _VideoSectionState extends State<VideoSection> {
             'You and me... forever',
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: viewportWidth < 600 ? 32 : 48,
+              fontSize: viewportWidth < 600 ? 48 : 56,
               fontWeight: FontWeight.bold,
               color: Colors.black,
+              fontFamily: 'typewriter',
             ),
           ),
 
